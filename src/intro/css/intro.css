@@ -50,10 +50,33 @@ body {
     margin-top: 100px;
 }
 
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 100px 0;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    width: 600px;
+}
+
 .internet-content {
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-top: 100px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
 }
 
